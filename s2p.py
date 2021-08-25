@@ -12,6 +12,7 @@ r = sr.Recognizer()
 def speak(audio):
     engine.say(audio)
     engine.runAndWait()
+    print("this is me")
 
 
 
